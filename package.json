@@ -1,5 +1,5 @@
 {
-  "name": "cypress-example-docker-compose",
+  "name": "cypress-with-docker",
   "version": "1.0.0",
   "description": "Example running Cypress tests against Apache server via docker-compose",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cypress-io/cypress-example-docker-compose.git"
+    "url": "git+https://github.com/Satishchilkaka/cypressDocker.git"
   },
   "keywords": [
     "cypress",
@@ -18,11 +18,8 @@
     "docker",
     "docker-compose"
   ],
-  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com> (https://glebbahmutov.com/)",
+  "author": "Satish-Chilkaka",
   "license": "ISC",
-  "private": true,
-  "bugs": {
-    "url": "https://github.com/cypress-io/cypress-example-docker-compose/issues"
-  },
-  "homepage": "https://github.com/cypress-io/cypress-example-docker-compose#readme"
+  "private": true
+ 
 }
