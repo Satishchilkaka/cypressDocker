@@ -1,5 +1,5 @@
 {
-  "name": "cypress-with-docker",
+  "name": "cypress-example-docker-compose",
   "version": "1.0.0",
   "description": "Example running Cypress tests against Apache server via docker-compose",
   "scripts": {
@@ -14,12 +14,9 @@
   "keywords": [
     "cypress",
     "cypress-io",
-    "example",
+   
     "docker",
     "docker-compose"
   ],
-  "author": "Satish-Chilkaka",
-  "license": "ISC",
-  "private": true
- 
+  "author": "satish-chilkaka"
 }

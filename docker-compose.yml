@@ -1,15 +1,15 @@
 version: '3'
 services:
   web:
-    image: nginx
+    image: apache
     build: ./webapp
-    container_name: nginx
+    container_name: apache
     restart: always
     # we can see the server running at "localhost:8080"
     ports:
       - "8080:80"
 
- e2e:
+  e2e:
     image: cypress
     build: ./e2e
     container_name: cypress
